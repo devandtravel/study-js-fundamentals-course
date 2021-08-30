@@ -32,10 +32,10 @@ This repo contains code snippets from the course, divided by branches.
 
 project: game Guess a Number
 
-**01-**
+**01-objects**
 
-1.
-2.
+1. Simple data objects
+2. 
 3.
 4.
 

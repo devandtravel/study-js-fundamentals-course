@@ -16,8 +16,7 @@ var riddle = {
       console.log('Правильный ответ:', this.correctAnswer)
       return
     }
-    this.tries--
-    if (answer.trim().toLowerCase() === this.correctAnswer) {
+    if (answer.trim().toLowerCase().includes(this.correctAnswer)) {
       alert('Правильный ответ')
       console.log('Правильный ответ')
       alert('Игра окончена')
@@ -27,6 +26,7 @@ var riddle = {
     } else {
       alert('Неправильный ответ')
       console.log('Неправильный ответ')
+      this.tries--
       if (this.tries <= 2 && this.tries > 0) {
         alert(this.hints[this.tries - 1])
         console.log(this.hints[this.tries - 1])

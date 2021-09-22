@@ -24,7 +24,7 @@ This repo contains code snippets from the course, divided by branches.
    5.1. While  
    5.2. For  
    5.3. Break  
-   5.4. Continue  
+   5.4. Continue
 6. Functions
 7. Math()
 
@@ -35,8 +35,49 @@ project: game Guess a Number
 **01-objects**
 
 1. Simple data objects
-2. 
+2. Memory refs
+3. In operator
+4. For in
+5. For of
+6. Object methods context
+7. String methods
+8. Number methods
+9. Array methods
+10. Errors
+11. Regular expressions
+
+5 excersizes
+
+project: game Riddles
+
+**02-functions**
+
+1. Functions and procedures
+2. Functions and memory
+3. Functions notation
+4. Scope
+5. Higher order functions and callbacks
+6. Recursion
+7. Closures
+8. Context
+9. Context clarification
+
+6 excersizes
+
+project: function replaceWordsInSentence
+
+**03-data-structures**
+
+1.
+2.
 3.
 4.
+5.
+6.
+7.
+8.
+9.
 
-excersizes
+0 excersizes
+
+project:

@@ -17,4 +17,5 @@ Object.entries(obj) // [ [ 'a', 1 ], [ 'b', 2 ], [ 'c', 3 ] ]
 
 Array.isArray({}) // false
 Array.from('string') // [ 's', 't', 'r', 'i', 'n', 'g' ]
-Array.of([1, 2, 3], x => x * 2) // [ 2, 4, 6 ]
+Array.from([1, 2, 3], x => x * 2) // [ 2, 4, 6 ]
+Array.of(1, 2, 3) // [ 1, 2, 3 ]
